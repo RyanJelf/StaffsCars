@@ -1,0 +1,246 @@
+body {
+  font-family: charcoal, sans-serif;
+  background-color: #393d3d;
+}
+
+.contentwrapper {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #393d3d;
+}
+
+
+/*- Header -*/
+
+.logo a {
+  float: left;
+  background-image: url("images/logo.png");
+  width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  background-repeat: no-repeat;
+}
+
+.top a {
+  float: right;
+  background-image: url("images/logo2.png");
+  margin-right: auto;
+  margin-left: auto;
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  font-size: 0px;
+}
+
+
+/*- Top Nav menu -*/
+
+.navbar {
+  width: 100%;
+  background-color: #5f9ea0;
+  overflow: auto;
+  border-radius: 15px;
+}
+
+.navbar a {
+  float: left;
+  padding: 5px;
+  color: #393d3d;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navbar a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+
+/*- Content box -*/
+
+.cardescimgbox {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #E6E6E6;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.cardescimgbox img {
+  vertical-align: top;
+  display: inline-block;
+  width: 90%;
+  height: 150px;
+  margin-top: 30px;
+}
+
+.cardescbox {
+  vertical-align: top;
+  background-color: #E6E6E6;
+  float: right;
+  width: 75%;
+  height: 260px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.carboxp {
+  color: black;
+  font-style: oblique;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 5px
+}
+
+.description {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+.sectioncontent {
+  visibility: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: deepskyblue;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.box {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #E6E6E6;
+  padding: 10px;
+  width: 250px;
+  height: 325px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.contactbox {
+  vertical-align: top;
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  width: 275px;
+  height: 250px;
+  border-radius: 15px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.contactbox img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.formbox {
+  background-color: #E6E6E6;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}
+
+li a {
+  color: grey;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  padding-left: 0;
+}
+
+.contactlist {
+  font-size: 20px;
+  font-family: impact;
+  color: darkgray;
+}
+
+li {
+  color: #393d3d;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: #5f9ea0;
+  margin: 5px;
+}
+
+.text a {
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: #5f9ea0;
+  margin: 5px;
+}
+
+h1,
+h3 {
+  color: #393d3d;
+}
+
+
+/*- Footer -*/
+
+.footnavbar {
+  width: 100%;
+  background-color: #5f9ea0;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.footnavbar a {
+  text-align: center;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  color: #393d3d;
+}
+
+.footnavbar a:hover {
+  color: white;
+  font-size: 12px;
+}
+
+.footp {
+  font-size: 10px;
+  text-align: center;
+  color: #393d3d;
+}
